@@ -1,0 +1,13 @@
+.container-fluid{
+font-style:initial;
+font-size: 20px; 
+}
+.body{
+    color:black;
+    border-radius: 2px;
+    background-image: url("https://gp-assets-1.growthplug.com/website_files/2021/06/07/new-size.png");
+}
+
+p{
+    text-align:center;
+}

@@ -1,0 +1,97 @@
+<!-- Start -->
+<div id="sect1" >
+    <div class="body" style="width:50%;height:50%;margin-top:10%;margin-left:25%;">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="card">
+                    <!-- Header start -->
+                    <div class="card-header">
+                        <i class="fa fa-align-justify"></i><strong>Booh an Appoinment</strong>
+                    </div>
+                    <!-- Header end -->
+                    <form class="form-horizontal">
+                        <!-- Body start -->
+                        <div class="col s12 white">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <!-- UserName start -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> First Name :</label><span class="requried-field">*</span>
+                                            <input class="form-control" formControlName="First name"
+                                                placeholder="User Name" />
+
+                                        </div>
+                                        <!-- UserName end -->
+                                    </div>
+                                    <!-- Name start-->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> Last Name :</label><span class="requried-field">*</span>
+                                            <input class="form-control" formControlName=" Last name"
+                                                placeholder="Name" />
+
+                                        </div>
+                                    </div>
+                                    <!-- Name end-->
+
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+
+                                    <!-- Email start -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> Email :</label><span class="requried-field">*</span>
+                                            <input class="form-control" formControlName="email" placeholder="Email" />
+
+                                        </div>
+                                    </div>
+                                    <!-- Email end -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> Date:</label><span class="requried-field">*</span>
+                                            <input class="fa fa-calendar" type="date" formControlName="date" placeholder="date" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <!-- Phone Number start -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> Phone Number :</label><span class="requried-field">*</span>
+                                            <input class="form-control" type="number" formControlName="phone"
+                                                placeholder="Phone" />
+                                        </div>
+                                    </div>
+                                    <!-- Phone Number start -->
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <label for=""> Time:</label><span class="requried-field">*</span>
+                                            <input class="form-control" type="time" formControlName="Time"
+                                                placeholder="Phone" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Body end -->
+                    <!-- Footer start -->
+                    <div class="card-footer">
+                        <div style="margin-left:75%">
+                            <button class="btn btn-sm btn-primary">
+                                Register
+                            </button> &nbsp;
+                            <button class="btn btn-sm btn-danger" [routerLink]="['/']">
+                                Back
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Footer end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+</div>
